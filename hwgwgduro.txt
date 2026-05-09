@@ -1,0 +1,1871 @@
+local redzlib = loadstring(game:HttpGet("https://api.lumi.new/v1/functions/p411936918378364928/getScript?id=69b47c6255502c3e6742f863"))()
+workspace.FallenPartsDestroyHeight = -math.huge
+local v2 = object:MakeWindow({
+    SubTitle = "Starlight Hub Developers",
+    Title = "Starlight Hub - Brookhaven RP 🏡",
+    LoadText = "Carregando...",
+    Flags = "starlightversaotestes"
+})
+local v3 = v2:AddMinimizeButton({
+    Button = {
+        Image = "rbxassetid://130633648074677",
+        BackgroundTransparency = 0
+    },
+    Corner = {
+        CornerRadius = UDim.new(35, 1)
+    }
+})
+local v4 = game:GetService("ReplicatedStorage")
+local v5 = game:GetService("Players")
+local v6 = v5.LocalPlayer
+sendscriptmessage = function() end
+local v7 = v2:MakeTab({"Info", "info"})
+local v8 = v7:AddSection({"Community"})
+local v9 = v7:AddDiscordInvite({
+    Description = "",
+    Name = "Starlight Hub Community",
+    Logo = "rbxassetid://130633648074677",
+    Invite = "https://chat.whatsapp.com/DmRn9cs8K9qGe5LBylzUmG?mode=gi_t"
+})
+local v10 = v7:AddSection({"Developers"})
+local v11 = v7:AddParagraph({"Script Owner/Main Developer: <font color='#740AFF'>Nexusdevy</font>", "Almost everything"})
+local v12 = v7:AddParagraph({"YouTubers/Helpers: <font color='#FF0000'>assure_tv</font>", "Thanks for helping me!"})
+local v13 = v7:AddParagraph({"Other Developers: <font color='#FFFF35'>Bazuka</font>, <font color='#6464FF'>Frost</font>", "Bazuka: Plaque Functions, Audio Functions, Prop Functions\
+Frost: Nuke and Flashbang Functions, Script Library UI"})
+local v14 = v7:AddParagraph({"Script Updates", " + Discontinued Nytherune \
+ + Added Improve Functions \
+ + Added Child Functions \
+ + Added Prop Functions \
+ + Added Click Functions \
+ + Added Spam Family Functions \
+ + Added Plaque Functions \
+ + Added Vehicle Functions"})
+local v15 = v2:MakeTab({"Scripts Trolls", "code"})
+local v16 = v15:AddSection({"Skybox (Working)"})
+game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/Skybox/refs/heads/main/Skybox")
+loadstring("-- Mock response for https://raw.githubusercontent.com/dreamy9x9x/Skybox/refs/heads/main/Skybox", "=(obfuscated)")
+local ldstrng = loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/Skybox/refs/heads/main/Skybox"))()
+local v17 = v15:AddButton({
+    Callback = function() end,
+    Name = "Apply Skybox from Shirt"
+})
+local v18 = v15:AddSection({"Nuke / Flashbang"})
+local v19 = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+local v20 = v19:GetAppliedDescription()
+task.wait(0.2)
+local v21 = game:GetService("ReplicatedStorage")
+local v22 = v21.Remotes.ChangeCharacterBody:InvokeServer({
+    123402086843880,
+    100839513065430,
+    78300682916056,
+    86276701020724,
+    78409653958165,
+    15093053680
+})
+task.wait(0.3)
+
+local v23 = Instance.new("Animation")
+v23.AnimationId = "rbxassetid://70883871260184"
+local v24 = v19:LoadAnimation(v23)
+v24.Priority = Enum.AnimationPriority.Action4
+v24:Play()
+task.wait(0.4)
+
+local v25 = Instance.new("Animation")
+v25.AnimationId = "rbxassetid://3695333486"
+local v26 = v19:LoadAnimation(v25)
+v26.Priority = Enum.AnimationPriority.Movement
+v26:Play()
+local v27 = v15:AddToggle({
+    Name = "Nuke",
+    Callback = function() end,
+    Default = false
+})
+local v28 = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+local v29 = v28:GetAppliedDescription()
+task.wait(0.15)
+local v30 = game:GetService("ReplicatedStorage")
+local v31 = v30.Remotes.ChangeCharacterBody:InvokeServer({
+    123402086843880,
+    100839513065430,
+    78300682916056,
+    86276701020724,
+    78409653958165,
+    15093053680
+})
+task.wait(0.15)
+
+local v32 = Instance.new("Animation")
+v32.AnimationId = "rbxassetid://70883871260184"
+local v33 = v28:LoadAnimation(v32)
+v33.Priority = Enum.AnimationPriority.Action4
+v33:Play()
+task.wait(0.2)
+
+local v34 = Instance.new("Animation")
+v34.AnimationId = "rbxassetid://3695333486"
+local v35 = v28:LoadAnimation(v34)
+v35.Priority = Enum.AnimationPriority.Movement
+v35:Play()
+local v36 = v15:AddToggle({
+    Name = "Flashbang",
+    Callback = function() end,
+    Default = false
+})
+local v37 = v2:MakeTab({"Troll Players", "key"})
+local v38 = v2:MakeTab({"Sound All", "volume"})
+local v39 = game:GetService("Players")
+local v40 = game:GetService("ReplicatedStorage")
+local v41 = v38:AddSection({"Sound All id"})
+local v42 = v38:AddTextBox({
+    Description = "Type the sound ID to play globally",
+    Callback = function() end,
+    Name = "Insert Global Sound ID",
+    ClearTextOnFocus = true,
+    PlaceholderText = "Example: 1234567890"
+})
+local v43 = v38:AddButton({
+    Description = "Plays the audio for all players",
+    Name = "Play Global Sound",
+    Callback = function() end
+})
+task.spawn(function()
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    task.wait(3)
+    -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+    -- [Dumper] Terminating due to excessive spam.
+    -- [Error in spawn] EXCESSIVE_REPETITION
+end)
+local v44 = v38:AddToggle({
+    Description = "Repeat sound globally",
+    Name = "Global Loop",
+    Callback = function() end,
+    Default = false
+})
+local v45 = v38:AddSection({"Memes"})
+local v46 = v38:AddDropdown({
+    Description = "Choose a sound to play globally",
+    Callback = function() end,
+    Name = "Global Meme Sounds",
+    Options = {
+        "Trollface laugh",
+        "Troll face sussy",
+        "Troll cut",
+        "Troll transition",
+        "Troll laugh",
+        "Magic 2",
+        "Tu é um betaaa",
+        "Jumpscare da disgrassa",
+        "Porfavor, nao tira eu do grupo",
+        "gato rindo da tua cara kk",
+        "AHHHHHHH (desaparecimento de chulesco)",
+        "Olá beleza, Vc pd meda-",
+        "Sino tocando (???)",
+        "Doguinho dormindo",
+        "Vidro se auto arregaçando",
+        "Homero brasileiro",
+        "LOUD You've been trolled",
+        "Metal rattle",
+        "Ifood",
+        "coringaa",
+        "Shopee",
+        "Cat meow",
+        "Skibidi",
+        "BIRULEIBI",
+        "risada top do ???akejsj",
+        "WhatsApp notificasaum",
+        "Samsung mei estourado HEHE",
+        "POLICIA KKKKKKK",
+        "Cavalo",
+        "Flamengo",
+        "fogos de artificio volume 100",
+        "Classic off",
+        "Kazuma Kazuma",
+        "HaHaHaHaHa!!!",
+        "sai dai, lava prato.",
+        "Slk, Num compensa"
+    },
+    Default = "Trollface laugh"
+})
+local v47 = v38:AddButton({
+    Description = "Plays the selected sound globally",
+    Name = "Play Selected Sound",
+    Callback = function() end
+})
+task.spawn(function()
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    task.wait(1)
+    -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+    -- [callback_addtoggle reached 2s limit, continuing main script]
+    local v48 = v38:AddToggle({
+        Description = "Repeat selected sound globally",
+        Name = "Loop Global Sound",
+        Callback = function() end,
+        Default = false
+    })
+    local v49 = v2:MakeTab({"Security", "rbxassetid://11322093465"})
+    local v50 = v49:AddSection({
+        Name = "Security"
+    })
+    local v51 = v49:AddSection({
+        Name = "Default Tools"
+    })
+    -- [Error in callback_connect] attempt to index a function value (local 'p')
+    local v52 = game.Players.PlayerAdded:Connect(function() end)
+    local v53 = game.Players:GetPlayers()
+    task.wait(0.5)
+    local v54 = game.Players:GetPlayers()
+    task.wait(0.5)
+    local v55 = game.Players:GetPlayers()
+    task.wait(0.5)
+    local v56 = game.Players:GetPlayers()
+    task.wait(0.5)
+    local v57 = game.Players:GetPlayers()
+    task.wait(0.5)
+    local v58 = game.Players:GetPlayers()
+    task.wait(0.5)
+    local v59 = game.Players:GetPlayers()
+    -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+    -- [Dumper] Terminating due to excessive spam.
+    -- [Error in callback_addbutton] EXCESSIVE_REPETITION
+    local v85 = v49:AddButton({
+        Callback = function() end,
+        Name = "Security against Couch methods"
+    })
+    local v86 = v49:AddSection({
+        Name = " "
+    })
+    local v87 = game.Workspace.WorkspaceCom:WaitForChild("001_SoccerBalls")
+    v87:Destroy()
+    local v88 = v49:AddButton({
+        Callback = function() end,
+        Name = "Security against Soccerball methods"
+    })
+    local v89 = game:GetService("Players")
+    local v90 = v89.LocalPlayer
+    local v91 = game.Workspace:WaitForChild("Vehicles")
+    local children = v91:GetChildren()
+    task.spawn(function()
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+        -- [Dumper] Terminating due to excessive spam.
+        -- [Error in spawn] EXCESSIVE_REPETITION
+    end)
+    local v92 = v91.ChildAdded:Connect(function(child)
+        task.wait(0.2)
+        task.spawn(function()
+        end)
+    end)
+    
+    local v93 = v49:AddButton({
+        Callback = function() end,
+        Name = "Security against the vehicle methods"
+    })
+    local v94 = game.Workspace:WaitForChild("Helicopters")
+    local children = v94:GetChildren()
+    task.spawn(function()
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        task.wait(0.1)
+        -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+        -- [callback_addbutton reached 2s limit, continuing main script]
+        local v95 = v49:AddButton({
+            Callback = function() end,
+            Name = "Security against helicopter or airplane methods"
+        })
+        local v96 = game.Workspace.WorkspaceCom.001_CanoeStorage:Destroy()
+        local v97 = v49:AddButton({
+            Callback = function() end,
+            Name = "Security against canoe methods"
+        })
+        local v98 = v2:MakeTab({"Names", "Paper"})
+        local v99 = v98:AddSection({
+            Name = "RGB Name"
+        })
+        local v100 = v98:AddToggle({
+            Name = "RGB Name",
+            Callback = function() end,
+            Default = false
+        })
+        local v101 = v98:AddSection({
+            Name = "RGB Description"
+        })
+        local v102 = v98:AddToggle({
+            Name = "RGB Description",
+            Callback = function() end,
+            Default = false
+        })
+        task.spawn(function()
+            local v103 = game:GetService("ReplicatedStorage")
+            task.wait(0.7)
+            local v104 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPNameColor", Color3.fromRGB(128, 0, 128))
+            local v105 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPBioColor", Color3.fromRGB(0, 255, 255))
+            task.wait(0.7)
+            local v106 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPNameColor", Color3.fromRGB(255, 20, 147))
+            local v107 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPBioColor", Color3.fromRGB(255, 0, 0))
+            task.wait(0.7)
+            local v108 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPNameColor", Color3.fromRGB(255, 165, 0))
+            local v109 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPBioColor", Color3.fromRGB(255, 165, 0))
+            task.wait(0.7)
+            local v110 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPNameColor", Color3.fromRGB(255, 20, 147))
+            local v111 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPBioColor", Color3.fromRGB(0, 255, 255))
+            task.wait(0.7)
+            local v112 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPNameColor", Color3.fromRGB(255, 0, 255))
+            local v113 = v103.RE.1RPNam1eColo1r:FireServer("PickingRPBioColor", Color3.fromRGB(255, 0, 255))
+            -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+            -- [Dumper] Terminating due to excessive spam.
+            -- [Error in spawn] EXCESSIVE_REPETITION
+        end)
+        local v148 = v98:AddSection({
+            Name = "Add Names to Player"
+        })
+        local v149 = game:GetService("ReplicatedStorage")
+        local v150 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "Anonymous")
+        local v151 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: Anonymous"
+        })
+        local v152 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "PRO")
+        local v153 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: PRO"
+        })
+        local v154 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "ERR0R_666")
+        local v155 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: ERR0R_666"
+        })
+        local v156 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "DARKNE1SSS")
+        local v157 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: DARKNE1SSS"
+        })
+        local v158 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "GHOST")
+        local v159 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: GHOST"
+        })
+        local v160 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "JOKER")
+        local v161 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: JOKER"
+        })
+        local v162 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "ADMIN")
+        local v163 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: ADMIN"
+        })
+        local v164 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "TUBERS93")
+        local v165 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: TUBERS93"
+        })
+        local v166 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "CO0LKID")
+        local v167 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: CO0LKID"
+        })
+        local v168 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "GAME ATTACKED BY STARLIGHT")
+        local v169 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: GAME ATTACKED BY STARLIGHT"
+        })
+        local v170 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "INC0MUN")
+        local v171 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: INC0MUN"
+        })
+        local v172 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "BAD BOY")
+        local v173 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: BAD BOY"
+        })
+        local v174 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "N1GHTSHADE")
+        local v175 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: N1GHTSHADE"
+        })
+        local v176 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "SHADOWSTRIKER")
+        local v177 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: SHADOWSTRIKER"
+        })
+        local v178 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "V1PERX")
+        local v179 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: V1PERX"
+        })
+        local v180 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "PHANTOM_99")
+        local v181 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: PHANTOM_99"
+        })
+        local v182 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "CRIMSONK1LLER")
+        local v183 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: CRIMSONK1LLER"
+        })
+        local v184 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "OBL1V1ON")
+        local v185 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: OBL1V1ON"
+        })
+        local v186 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "ICEWOLF")
+        local v187 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: ICEWOLF"
+        })
+        local v188 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "NE0N_RIDER")
+        local v189 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: NE0N_RIDER"
+        })
+        local v190 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "BLACK_HAWK")
+        local v191 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: BLACK_HAWK"
+        })
+        local v192 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "VOIDWALKER")
+        local v193 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: VOIDWALKER"
+        })
+        local v194 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "CYB3RSPIRIT")
+        local v195 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: CYB3RSPIRIT"
+        })
+        local v196 = v149.RE.1RPNam1eTex1t:FireServer("RolePlayName", "LUN4T1C")
+        local v197 = v98:AddButton({
+            Callback = function() end,
+            Name = "Name: LUN4T1C"
+        })
+        local v198 = v2:MakeTab({"Improve", "ticket"})
+        local v199 = v198:AddSection({"Shaders"})
+        local v200 = game:GetService("UserInputService")
+        game:HttpGet("https://raw.githubusercontent.com/wx-sources/Codigo-Fonte-Nytherune/refs/heads/main/Wx%20Lenda")
+        loadstring("-- Mock response for https://raw.githubusercontent.com/wx-sources/Codigo-Fonte-Nytherune/refs/heads/main/Wx%20Lenda", "=(obfuscated)")
+        local ldstrng = loadstring(game:HttpGet("https://raw.githubusercontent.com/wx-sources/Codigo-Fonte-Nytherune/refs/heads/main/Wx%20Lenda"))()
+        local v201 = v198:AddButton({
+            Callback = function() end,
+            Name = "Apply Shaders"
+        })
+        local v202 = v198:AddSection({"Optimization"})
+        local v203 = game:GetService("Lighting")
+        v203.GlobalShadows = false
+        v203.FogEnd = 100000
+        local v204 = v198:AddButton({
+            Callback = function() end,
+            Name = "Disable Shadows"
+        })
+        local v205 = game.Workspace:GetDescendants()
+        local v206 = v198:AddButton({
+            Callback = function() end,
+            Name = "Simplify Materials"
+        })
+        local v207 = game.Workspace:GetDescendants()
+        local v208 = v198:AddButton({
+            Callback = function() end,
+            Name = "Destroy Particles"
+        })
+        pl = game.Players.LocalPlayer
+        ChaosHubSendDelay = 1
+        ChaosHubSpawnText = false
+        TextSave = ""
+        local v209 = v2:MakeTab({"Local Player", "user"})
+        local v210 = v209:AddSection({
+            Name = "Speed, Gravity and Jump"
+        })
+        local v211 = v209:AddTextBox({
+            PlaceholderText = "Enter speed",
+            Name = "Player Speed",
+            Callback = function() end
+        })
+        local v212 = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+        local v213 = v209:AddButton({
+            Callback = function() end,
+            Name = "Reset speed"
+        })
+        local v214 = v209:AddTextBox({
+            PlaceholderText = "Enter jump height",
+            Name = "Jump Height",
+            Callback = function() end
+        })
+        local v215 = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+        local v216 = v209:AddButton({
+            Callback = function() end,
+            Name = "Reset Jump"
+        })
+        local v217 = v209:AddTextBox({
+            PlaceholderText = "Enter gravity",
+            Name = "Gravity",
+            Callback = function() end
+        })
+        local v218 = v209:AddButton({
+            Callback = function() end,
+            Name = "Reset Gravity"
+        })
+        local v219 = v209:AddSection({
+            Name = "Spam Chat"
+        })
+        sendchat = function() end
+        TextSave = {
+            PlaceholderText = "Enter message",
+            Name = "Enter text",
+            Callback = function() end
+        }
+        local v220 = v209:AddTextBox({
+            PlaceholderText = "Enter message",
+            Name = "Enter text",
+            Callback = function() end
+        })
+        local v221 = game:GetService("TextChatService")
+        TextSave = {
+            PlaceholderText = "Enter message",
+            Name = "Enter text",
+            Callback = function() end
+        }
+        local v222 = v221.TextChannels.RBXGeneral:SendAsync({
+            PlaceholderText = "Enter message",
+            Name = "Enter text",
+            Callback = function() end
+        })
+        local v223 = v209:AddButton({
+            Callback = function() end,
+            Name = "Send Chat"
+        })
+        ChaosHubSendDelay = {
+            Callback = function() end,
+            Min = 0.4,
+            Increment = 0.1,
+            Name = "Spam Delay",
+            Max = 10,
+            Default = 1
+        }
+        local v224 = v209:AddSlider({
+            Callback = function() end,
+            Min = 0.4,
+            Increment = 0.1,
+            Name = "Spam Delay",
+            Max = 10,
+            Default = 1
+        })
+        ChaosHubSpawnText = {
+            Name = "Spam Chat",
+            Callback = function() end,
+            Default = false
+        }
+        local v225 = game:GetService("TextChatService")
+        local v226 = v225.TextChannels.RBXGeneral:SendAsync("Starlight Hub - made by Nexusdevy")
+        task.wait({
+            Callback = function() end,
+            Min = 0.4,
+            Increment = 0.1,
+            Name = "Spam Delay",
+            Max = 10,
+            Default = 1
+        })
+        -- [Error in callback_addtoggle] attempt to perform arithmetic on a table value (local 'n')
+        local v227 = v209:AddToggle({
+            Name = "Spam Chat",
+            Callback = function() end,
+            Default = false
+        })
+        local v228 = v2:MakeTab({"Fun Players", "fun"})
+        local v229 = v228:AddSection({"Fun Players"})
+        local v230 = game:GetService("Players")
+        local players = v230:GetPlayers()
+        local v231 = v228:AddDropdown({
+            Options = {"Player1"},
+            Name = "Select a Player",
+            Callback = function() end,
+            Default = ""
+        })
+        local v232 = v228:AddSection({
+            Name = "Head Sit"
+        })
+        local v233 = game:GetService("Players")
+        local v234 = v233.LocalPlayer
+        local v235 = game:GetService("Players")
+        local v236 = v235:FindFirstChild("table: 0x55fff3aa0f00")
+        local v237 = object:WaitForChild("Humanoid")
+        v237.Sit = true
+        local v238 = game:GetService("RunService")
+        local v239 = v238.Heartbeat:Connect(function(deltaTime)
+            local v240 = v236:FindFirstChild("Head")
+            local v241 = v234:FindFirstChild("Humanoid")
+        end)
+        
+        local v242 = v228:AddToggle({
+            Name = "Head Sit",
+            Callback = function() end,
+            Default = false
+        })
+        local v243 = v228:AddSection({"Family Invite"})
+        local v244 = game:GetService("Players")
+        local v245 = v244:FindFirstChild("table: 0x55fff3aa0f00")
+        local v246 = game:GetService("Players")
+        local v247 = v246.LocalPlayer
+        task.spawn(function()
+            local v248 = game:GetService("ReplicatedStorage")
+            local v249 = v248.Remotes.InvitePlayerToFamily:FireServer(1, "Wheel")
+        end)
+        task.spawn(function()
+            local v250 = game:GetService("ReplicatedStorage")
+            local v251 = v250.Remotes.InvitePlayerToFamily:FireServer(1, "Wheel")
+        end)
+        task.spawn(function()
+            local v252 = game:GetService("ReplicatedStorage")
+            local v253 = v252.Remotes.InvitePlayerToFamily:FireServer(1, "Wheel")
+        end)
+        task.spawn(function()
+            local v254 = game:GetService("ReplicatedStorage")
+            local v255 = v254.Remotes.InvitePlayerToFamily:FireServer(1, "Wheel")
+        end)
+        task.spawn(function()
+            -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+        -- [Dumper] Terminating due to excessive spam.
+        -- [Error in callback_addbutton] EXCESSIVE_REPETITION
+        local v282 = v228:AddButton({
+            Callback = function() end,
+            Name = "Spam Invite Selected Player"
+        })
+        game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/espamafemilyiviteAAUU.lua")
+        loadstring("-- Mock response for https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/espamafemilyiviteAAUU.lua", "=(obfuscated)")
+        local ldstrng = loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/espamafemilyiviteAAUU.lua"))()
+        local v283 = v228:AddButton({
+            Callback = function() end,
+            Name = "Spam Invite All Players"
+        })
+        local v284 = v228:AddSection({
+            Name = "Plaque"
+        })
+        local v285 = v228:AddTextBox({
+            PlaceholderText = "Sign text",
+            Name = "Text",
+            Callback = function() end
+        })
+        local v286 = game:GetService("Players")
+        local v287 = v286:FindFirstChild("table: 0x55fff3aa0f00")
+        local v288 = v287:FindFirstChild("Sign")
+        local v289 = object.Sign.ToolSound:FireServer("Sign", "SignWords", {
+            PlaceholderText = "Sign text",
+            Name = "Text",
+            Callback = function() end
+        })
+        local v290 = v228:AddButton({
+            Callback = function() end,
+            Name = "Change Plaque (Selected Player)"
+        })
+        local v291 = game:GetService("Players")
+        local players = v291:GetPlayers()
+        local v292 = workspace:FindFirstChild("Sign")
+        local v293 = object.Sign.ToolSound:FireServer("Sign", "SignWords", "Sign")
+        local v294 = v228:AddButton({
+            Callback = function() end,
+            Name = "Change Plaque (All Players)"
+        })
+        local v295 = v228:AddSection({" "})
+        local v296 = v228:AddSection({"Warnings"})
+        local v297 = game:GetService("Players")
+        local v298 = v297.LocalPlayer
+        local v299 = game:GetService("ReplicatedStorage")
+        local v300 = v299.Remotes.GunEquip:InvokeServer("Assault", "StockAssault")
+        local children = v298:GetChildren()
+        child.Parent = Character
+        local v301 = v298:FindFirstChild("HumanoidRootPart")
+        v301.CFrame = CFrame.new(333, 4, 68)
+        humanoid:MoveTo(Vector3.new(333, 4, 80))
+        local v302 = v228:AddButton({
+            Callback = function() end,
+            Name = "Warn All Players: Guns at the airport"
+        })
+        Loops = {}
+        local v303 = game.Players:GetPlayers()
+        local v304 = v2:MakeTab({"View Players", "eye"})
+        local v305 = v304:AddSection({"View Players"})
+        local v306 = v304:AddSection({
+            Name = "ESP System"
+        })
+        local v307 = game:GetService("Players")
+        local players = v307:GetPlayers()
+        local v308 = v307.LocalPlayer
+        local v309 = v304:AddDropdown({
+            Name = "Select a Player",
+            Callback = function() end,
+            Options = {"Player1"}
+        })
+        local players = v307:GetPlayers()
+        local v310 = v307.LocalPlayer
+        local v311 = v309:Refresh({"Player1"}, true)
+        local v312 = v304:AddButton({
+            Callback = function() end,
+            Name = "Refresh Player List"
+        })
+        local v313 = v307.PlayerAdded:Connect(function(player)
+            task.wait(0.5)
+            local players = v307:GetPlayers()
+            local v314 = v307.LocalPlayer
+            local v315 = v309:Refresh({"Player1"}, true)
+        end)
+        
+        local v316 = v307.PlayerRemoving:Connect(function(player)
+            task.wait(0.5)
+            local players = v307:GetPlayers()
+            local v317 = v307.LocalPlayer
+            local v318 = v309:Refresh({"Player1"}, true)
+        end)
+        
+        local v319 = v307:FindFirstChild("table: 0x55fff40ecbf0")
+        
+        local v320 = Instance.new("Highlight", Character)
+        v320.Adornee = Character
+        v320.FillTransparency = 0.5
+        v320.OutlineTransparency = 0
+        v320.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+        local v321 = v319:FindFirstChild("Head")
+        
+        local v322 = Instance.new("BillboardGui", v321)
+        v322.Size = UDim2.new(0, 200, 0, 40)
+        v322.StudsOffset = Vector3.new(0, 3, 0)
+        v322.AlwaysOnTop = true
+        
+        local v323 = Instance.new("TextLabel", v322)
+        v323.Size = UDim2.new(1, 0, 1, 0)
+        v323.BackgroundTransparency = 1
+        v323.Text = "table: 0x55fff40ecbf0"
+        v323.TextScaled = true
+        v323.Font = Enum.Font.GothamBold
+        v323.TextStrokeTransparency = 0
+        v323.TextColor3 = Color3.new(1, 1, 1)
+        local v324 = v319.CharacterAdded:Connect(function(character)
+            task.wait(0.5)
+        end)
+        
+        local v325 = v304:AddToggle({
+            Callback = function() end,
+            Name = "ESP Player"
+        })
+        local players = v307:GetPlayers()
+        local v326 = v307.LocalPlayer
+        
+        local v327 = Instance.new("Highlight", Character)
+        v327.Adornee = Character
+        v327.FillTransparency = 0.5
+        v327.OutlineTransparency = 0
+        v327.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+        local v328 = workspace:FindFirstChild("Head")
+        
+        local v329 = Instance.new("BillboardGui", v328)
+        v329.Size = UDim2.new(0, 200, 0, 40)
+        v329.StudsOffset = Vector3.new(0, 3, 0)
+        v329.AlwaysOnTop = true
+        
+        local v330 = Instance.new("TextLabel", v329)
+        v330.Size = UDim2.new(1, 0, 1, 0)
+        v330.BackgroundTransparency = 1
+        v330.Text = "Player1"
+        v330.TextScaled = true
+        v330.Font = Enum.Font.GothamBold
+        v330.TextStrokeTransparency = 0
+        v330.TextColor3 = Color3.new(1, 1, 1)
+        local v331 = player.CharacterAdded:Connect(function(character)
+            task.wait(0.5)
+        end)
+        
+        local v332 = v304:AddToggle({
+            Callback = function() end,
+            Name = "ESP All Players"
+        })
+        local v333 = v2:MakeTab({"Shop", "shoppingbag"})
+        local v334 = v333:AddSection({"Ice Cream/Pastry Shop"})
+        local v335 = game:GetService("RunService")
+        local v336 = game.Workspace.__DEV.SwapablePOIs.PastryAndIceCream.PlotButtons.PastryShop:FindFirstChildOfClass("ClickDetector")
+        local v337 = game.Workspace.__DEV.SwapablePOIs.PastryAndIceCream.PlotButtons.IceCreamShop:FindFirstChildOfClass("ClickDetector")
+        task.spawn(function()
+            task.wait(0.01)
+            local v338 = v335.Heartbeat:Wait()
+            task.wait(0.01)
+            local v339 = v335.Heartbeat:Wait()
+            task.wait(0.01)
+            local v340 = v335.Heartbeat:Wait()
+            task.wait(0.01)
+            local v341 = v335.Heartbeat:Wait()
+            task.wait(0.01)
+            local v342 = v335.Heartbeat:Wait()
+            task.wait(0.01)
+            local v343 = v335.Heartbeat:Wait()
+            task.wait(0.01)
+            -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+            -- [Dumper] Terminating due to excessive spam.
+            -- [Error in spawn] EXCESSIVE_REPETITION
+        end)
+        local v370 = v333:AddButton({
+            Callback = function() end,
+            Name = "Ice Cream/Pastry Shop - Glitch"
+        })
+        local v371 = v333:AddButton({
+            Callback = function() end,
+            Name = "Stop Glitch"
+        })
+        local v372 = game:GetService("RunService")
+        local v373 = game:GetService("ReplicatedStorage")
+        local v374 = v373:WaitForChild("RE")
+        local v375 = v2:MakeTab({"House", "home"})
+        local v376 = v375:AddSection({"Your House"})
+        local v377 = v372.RenderStepped:Connect(function(deltaTime)
+            local v378 = v374:WaitForChild("1Player1sHous1e")
+            v378:FireServer("ColorPickHouse", Color3.fromHSV(0.660593, 1, 1))
+        end)
+        
+        local v379 = v375:AddToggle({
+            Name = "House - Rgb",
+            Callback = function() end,
+            Default = false
+        })
+        local v380 = v372.RenderStepped:Connect(function(deltaTime)
+            local v381 = v374:WaitForChild("1RPHous1eEven1tColo1r")
+            v381:FireServer("PickingBusinessNameColor", Color3.fromHSV(0.597823, 1, 1))
+        end)
+        
+        local v382 = v375:AddToggle({
+            Name = "Housetext - Rgb",
+            Callback = function() end,
+            Default = false
+        })
+        local v383 = v375:AddSection({"Hack3d Housetext"})
+        local v384 = v372.RenderStepped:Connect(function(deltaTime)
+            local v385 = v374:WaitForChild("1RPHous1eEven1t")
+            v385:FireServer("BusinessName", "§aS§2tarlight §fHub")
+            local v386 = v374:WaitForChild("1RPHous1eEven1tColo1r")
+            v386:FireServer("PickingBusinessNameColor", Color3.new(0, 0, 0))
+        end)
+        
+        local v387 = v375:AddToggle({
+            Name = "Apply Hack3d Housetext",
+            Callback = function() end,
+            Default = false
+        })
+        local v388 = v375:AddSection({"Other Houses"})
+        local v389 = v373.BannedLots:Destroy()
+        local v390 = v375:AddButton({
+            Callback = function() end,
+            Name = "Unban from all houses"
+        })
+        local v391 = v375:AddSection({"Props"})
+        local v392 = game.Workspace:WaitForChild("001_Lots")
+        local v393 = v375:AddToggle({
+            Name = "Disable Prop Spawn",
+            Callback = function() end,
+            Default = false
+        })
+        local v394 = game.Workspace:WaitForChild("001_Lots")
+        local v395 = v375:AddButton({
+            Callback = function() end,
+            Name = "Delete All Props"
+        })
+        local v396 = v375:AddSection({"Loop Scripts"})
+        task.spawn(function()
+            local v397 = v374:WaitForChild("1Player1sHous1e")
+            v397:FireServer("GarageDoor")
+            task.wait(7)
+            local v398 = v374:WaitForChild("1Player1sHous1e")
+            v398:FireServer("GarageDoor")
+            task.wait(7)
+            local v399 = v374:WaitForChild("1Player1sHous1e")
+            v399:FireServer("GarageDoor")
+            task.wait(7)
+            local v400 = v374:WaitForChild("1Player1sHous1e")
+            v400:FireServer("GarageDoor")
+            task.wait(7)
+            local v401 = v374:WaitForChild("1Player1sHous1e")
+            v401:FireServer("GarageDoor")
+            task.wait(7)
+            -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+            -- [Dumper] Terminating due to excessive spam.
+            -- [Error in spawn] EXCESSIVE_REPETITION
+        end)
+        local v419 = v375:AddToggle({
+            Name = "Loop Garage",
+            Callback = function() end,
+            Default = false
+        })
+        local v420 = v2:MakeTab({"Child", "baby"})
+        local v421 = v420:AddSection({
+            Name = "Child Management"
+        })
+        local v422 = v420:AddDropdown({
+            Options = {},
+            Name = "Select a player",
+            Callback = function() end,
+            Default = ""
+        })
+        local v423 = game.Players:GetPlayers()
+        local v424 = v422:Refresh({})
+        local v425 = v420:AddButton({
+            Callback = function() end,
+            Name = "Refresh Player List"
+        })
+        local v426 = v420:AddSlider({
+            Increase = 1,
+            Min = 1,
+            Callback = function() end,
+            Name = "Orbit Speed",
+            Max = 20,
+            Default = 5
+        })
+        local v427 = game.Players:FindFirstChild({
+            Options = {},
+            Name = "Select a player",
+            Callback = function() end,
+            Default = ""
+        })
+        local v428 = game.Players:FindFirstChild({
+            Options = {},
+            Name = "Select a player",
+            Callback = function() end,
+            Default = ""
+        })
+        local v429 = game:GetService("RunService")
+        local v430 = v429.Heartbeat:Connect(function(deltaTime)
+            local v431 = v428:FindFirstChild("HumanoidRootPart")
+            local v432 = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+            -- [Error in Connect_Callback] attempt to perform arithmetic on a table value (local 'g')
+        end)
+        
+        local v433 = v420:AddToggle({
+            Name = "Orbit Player",
+            Callback = function() end,
+            Default = false
+        })
+        local v434 = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
+        local v435 = game.Workspace.game.Players.LocalPlayer.Name:FindFirstChild("FollowCharacter")
+        task.wait(0.2)
+        local v436 = game.Workspace:FindFirstChild({
+            Options = {},
+            Name = "Select a player",
+            Callback = function() end,
+            Default = ""
+        })
+        local v437 = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
+        local v438 = game.Workspace.game.Players.LocalPlayer.Name:FindFirstChild("FollowCharacter")
+        local v439 = game:GetService("RunService")
+        local v440 = v439.Heartbeat:Connect(function(deltaTime)
+            local v441 = game.Workspace:FindFirstChild({
+                Options = {},
+                Name = "Select a player",
+                Callback = function() end,
+                Default = ""
+            })
+            local v442 = game.Workspace.game.Players.LocalPlayer.Name.FollowCharacter:FindFirstChild("Torso")
+            local v443 = v441:FindFirstChild("HumanoidRootPart")
+            local v444 = game.Workspace.game.Players.LocalPlayer.Name.FollowCharacter.Torso:FindFirstChild("BodyPosition")
+            local v445 = game.Workspace.game.Players.LocalPlayer.Name.FollowCharacter.Torso:FindFirstChild("BodyGyro")
+            v444.Position = (Vector3.new(0, 5, 0) - (CFrame.new(0, 5, 0) * 3))
+            v445.CFrame = CFrame.new(0, 5, 0)
+        end)
+        
+        local v446 = v420:AddButton({
+            Callback = function() end,
+            Name = "Send Child"
+        })
+        v440:Disconnect()
+        local v447 = game:GetService("ReplicatedStorage")
+        local v448 = v447.RE:FindFirstChild("1Bab1yFollo1w")
+        v448:FireServer({"DeleteFollowCharacter"})
+        task.wait(0.1)
+        local v449 = game:GetService("ReplicatedStorage")
+        local v450 = v449.RE:FindFirstChild("1Bab1yFollo1w")
+        v450:FireServer({"CharacterFollowSpawnPlayer", "BabyBoy"})
+        local v451 = v420:AddButton({
+            Callback = function() end,
+            Name = "Recall Child"
+        })
+        local v452 = game:GetService("RunService")
+        local v453 = v452.RenderStepped:Connect(function(deltaTime)
+            local v454 = game.Players:FindFirstChild({
+                Options = {},
+                Name = "Select a player",
+                Callback = function() end,
+                Default = ""
+            })
+            local v455 = v454:FindFirstChild("Humanoid")
+        end)
+        
+        local v456 = v420:AddToggle({
+            Name = "Spectate Player",
+            Callback = function() end,
+            Default = false
+        })
+        task.wait(1)
+        local v457 = game.Players:GetPlayers()
+        local v458 = v422:Refresh({})
+        local v459 = game.Players.PlayerAdded:Connect(function() end)
+        -- [Error in callback_connect] attempt to index a function value (local 'd')
+        local v460 = game.Players.PlayerRemoving:Connect(function() end)
+        local v461 = v2:MakeTab({"Tools", "backpack"})
+        local v462 = v461:AddSection({"Duplicate Credit Card"})
+        cardamt = {
+            Increase = 1,
+            Min = 1,
+            Callback = function() end,
+            Name = "Credit Card Amount",
+            Max = 100,
+            Default = 20
+        }
+        local v463 = v461:AddSlider({
+            Increase = 1,
+            Min = 1,
+            Callback = function() end,
+            Name = "Credit Card Amount",
+            Max = 100,
+            Default = 20
+        })
+        local v464 = game:GetService("ReplicatedStorage")
+        -- [Error in callback_addbutton] attempt to compare number with table
+        local v465 = v461:AddButton({
+            Callback = function() end,
+            Name = "Duplicate"
+        })
+        local v466 = v461:AddSection({
+            Name = "Tool Writing"
+        })
+        _Running = true
+        local v467 = game:GetService("Players")
+        local v468 = game:GetService("CoreGui")
+        local v469 = game:GetService("UserInputService")
+        local v470 = v467.LocalPlayer
+        
+        local v471 = Instance.new("ScreenGui")
+        v471.Name = "TextToolGUI"
+        v471.Parent = v468
+        v471.ResetOnSpawn = false
+        
+        local v472 = Instance.new("Frame", v471)
+        v472.Size = UDim2.new(0, 250, 0, 120)
+        v472.Position = UDim2.new(0.5, -125, 0.5, -60)
+        v472.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+        v472.BorderSizePixel = 0
+        
+        local v473 = Instance.new("UICorner", v472)
+        v473.CornerRadius = UDim.new(0, 10)
+        
+        local v474 = Instance.new("TextLabel", v472)
+        v474.Size = UDim2.new(1, 0, 0, 30)
+        v474.BackgroundTransparency = 1
+        v474.Text = "Write your text"
+        v474.Font = Enum.Font.GothamBold
+        v474.TextSize = 14
+        v474.TextColor3 = Color3.fromRGB(50, 50, 255)
+        
+        local v475 = Instance.new("TextBox", v472)
+        v475.Size = UDim2.new(0.9, 0, 0, 30)
+        v475.Position = UDim2.new(0.05, 0, 0, 40)
+        v475.PlaceholderText = "Type here..."
+        v475.Text = ""
+        v475.TextSize = 14
+        v475.Font = Enum.Font.Gotham
+        v475.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+        v475.TextColor3 = Color3.new(1, 1, 1)
+        
+        local v476 = Instance.new("UICorner", v475)
+        v476.CornerRadius = UDim.new(0, 6)
+        
+        local v477 = Instance.new("TextButton", v472)
+        v477.Size = UDim2.new(0.9, 0, 0, 30)
+        v477.Position = UDim2.new(0.05, 0, 0, 80)
+        v477.Text = "Write (tools)"
+        v477.Font = Enum.Font.GothamBold
+        v477.TextSize = 14
+        v477.BackgroundColor3 = Color3.fromRGB(50, 50, 255)
+        v477.TextColor3 = Color3.new(1, 1, 1)
+        
+        local v478 = Instance.new("UICorner", v477)
+        v478.CornerRadius = UDim.new(0, 6)
+        local v479 = v477.MouseButton1Click:Connect(function()
+        end)
+        
+        local v480 = v472.InputBegan:Connect(function(input, gameProcessed)
+        end)
+        
+        local v481 = v472.InputChanged:Connect(function(input, gameProcessed)
+        end)
+        
+        local v482 = v469.InputChanged:Connect(function(input, gameProcessed)
+        end)
+        
+        _Running = false
+        local v483 = v461:AddButton({
+            Callback = function() end,
+            Name = "Tool Writing (New!)"
+        })
+        local v484 = v2:MakeTab({"Vehicles", "car"})
+        local v485 = v484:AddSection({"Vehicle System"})
+        local v486 = game:GetService("Players")
+        local v487 = game:GetService("Workspace")
+        local v488 = game:GetService("StarterGui")
+        local v489 = v486.LocalPlayer
+        local v490 = v484:AddSection({"All Vehicles Functions"})
+        local v491 = v487:FindFirstChild("Vehicles")
+        local v492 = v489:FindFirstChild("HumanoidRootPart")
+        local v493 = v489:FindFirstChild("Humanoid")
+        local v494 = v493:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
+        local v495 = v493:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
+        local v496 = v493:SetStateEnabled(Enum.HumanoidStateType.GettingUp, true)
+        v493.PlatformStand = false
+        task.spawn(function()
+            local children = v491:GetChildren()
+            local v497 = v489:FindFirstChild("Humanoid")
+            local v498 = v497:SetStateEnabled(Enum.HumanoidStateType.FallingDown, true)
+            local v499 = v497:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, true)
+        end)
+        local v500 = v484:AddToggle({
+            Name = "Destroy All Vehicles",
+            Callback = function() end,
+            Default = false
+        })
+        local v501 = v487:FindFirstChild("Vehicles")
+        local v502 = v489:FindFirstChild("HumanoidRootPart")
+        local v503 = v489:FindFirstChild("Humanoid")
+        local v504 = v503:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
+        local v505 = v503:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
+        local v506 = v503:SetStateEnabled(Enum.HumanoidStateType.GettingUp, true)
+        v503.PlatformStand = false
+        local children = v501:GetChildren()
+        local v507 = v489:FindFirstChild("Humanoid")
+        local v508 = v507:SetStateEnabled(Enum.HumanoidStateType.FallingDown, true)
+        local v509 = v507:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, true)
+        local v510 = v484:AddButton({
+            Callback = function() end,
+            Name = "Fling All Vehicles"
+        })
+        local v511 = v487:FindFirstChild("Vehicles")
+        local v512 = v489:FindFirstChild("HumanoidRootPart")
+        local v513 = v489:FindFirstChild("Humanoid")
+        local v514 = v513:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
+        local v515 = v513:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
+        local v516 = v513:SetStateEnabled(Enum.HumanoidStateType.GettingUp, true)
+        v513.PlatformStand = false
+        local children = v511:GetChildren()
+        local v517 = v489:FindFirstChild("Humanoid")
+        local v518 = v517:SetStateEnabled(Enum.HumanoidStateType.FallingDown, true)
+        local v519 = v517:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, true)
+        local v520 = v484:AddButton({
+            Callback = function() end,
+            Name = "Bring All Vehicles"
+        })
+        local v521 = v484:AddSection({"Specific Vehicle Functions"})
+        local v522 = v487:FindFirstChild("Vehicles")
+        local children = v522:GetChildren()
+        local v523 = v484:AddDropdown({
+            Name = "Select Vehicle",
+            Callback = function() end,
+            Options = {}
+        })
+        local v524 = v487:FindFirstChild("Vehicles")
+        local v525 = v524:FindFirstChild("table: 0x55fff52b3e00")
+        local v526 = v525:FindFirstChildWhichIsA("VehicleSeat")
+        v488:SetCore("SendNotification", {
+            Title = "Notice",
+            Text = "Driver seat occupied.",
+            Duration = 4
+        })
+        local v527 = v484:AddButton({
+            Callback = function() end,
+            Name = "Destroy Selected Vehicle"
+        })
+        local v528 = v487:FindFirstChild("Vehicles")
+        local v529 = v528:FindFirstChild("table: 0x55fff52b3e00")
+        local v530 = v529:FindFirstChildWhichIsA("VehicleSeat")
+        v488:SetCore("SendNotification", {
+            Title = "Notice",
+            Text = "Driver seat occupied.",
+            Duration = 4
+        })
+        local v531 = v484:AddButton({
+            Callback = function() end,
+            Name = "Fling Selected Vehicle"
+        })
+        local v532 = v487:FindFirstChild("Vehicles")
+        local v533 = v532:FindFirstChild("table: 0x55fff52b3e00")
+        local v534 = v533:FindFirstChildWhichIsA("VehicleSeat")
+        v488:SetCore("SendNotification", {
+            Title = "Notice",
+            Text = "Driver seat occupied.",
+            Duration = 4
+        })
+        local v535 = v484:AddButton({
+            Callback = function() end,
+            Name = "Bring Selected Vehicle"
+        })
+        local v536 = v484:AddSection({"Camera Functions"})
+        local v537 = v487:FindFirstChild("Vehicles")
+        local v538 = v537:FindFirstChild("table: 0x55fff52b3e00")
+        local v539 = v538:FindFirstChildWhichIsA("VehicleSeat")
+        Camera.CameraSubject = v539
+        Camera.CameraType = Enum.CameraType.Follow
+        local v540 = v484:AddToggle({
+            Name = "View Selected Vehicle Camera",
+            Callback = function() end,
+            Default = false
+        })
+        local v541 = v487:WaitForChild("Vehicles")
+        local v542 = v541.ChildAdded:Connect(function(child)
+            local v543 = v487:FindFirstChild("Vehicles")
+            local children = v543:GetChildren()
+            local v544 = v523:Set({})
+        end)
+        
+        local v545 = v487:WaitForChild("Vehicles")
+        local v546 = v545.ChildRemoved:Connect(function(child)
+            local v547 = v487:FindFirstChild("Vehicles")
+            local children = v547:GetChildren()
+            local v548 = v523:Set({})
+        end)
+        
+        local v549 = v2:MakeTab({"Avatar", "shirt"})
+        local v550 = v549:AddSection({
+            Name = "Avatar"
+        })
+        local v551 = v549:AddSection({
+            Name = "Copy Avatar"
+        })
+        local v552 = game:GetService("Players")
+        local v553 = game:GetService("ReplicatedStorage")
+        local v554 = v553:WaitForChild("Remotes")
+        local players = v552:GetPlayers()
+        local v555 = v549:AddDropdown({
+            Name = "Select Any Player",
+            Callback = function() end,
+            Options = {"Player1"}
+        })
+        local v556 = v552.PlayerAdded:Connect(function(player)
+            local players = v552:GetPlayers()
+            local v557 = v555:Refresh({"Player1"}, true)
+        end)
+        
+        local v558 = v552.PlayerRemoving:Connect(function(player)
+            local players = v552:GetPlayers()
+            local v559 = v555:Refresh({"Player1"}, true)
+        end)
+        
+        local v560 = v552.LocalPlayer
+        local v561 = v552:FindFirstChild("table: 0x55fff53de6f0")
+        local v562 = v560:FindFirstChildOfClass("Humanoid")
+        local v563 = v561:FindFirstChildOfClass("Humanoid")
+        local v564 = v562:GetAppliedDescription()
+        local v565 = v564:GetAccessories(true)
+        local v566 = v563:GetAppliedDescription()
+        local v567 = v554.ChangeCharacterBody:InvokeServer({
+            Torso,
+            RightArm,
+            LeftArm,
+            RightLeg,
+            LeftLeg,
+            Head
+        })
+        task.wait(0.5)
+        local v568 = v566:GetAccessories(true)
+        local v569 = v561:FindFirstChild("Body Colors")
+        local v570 = v554.ChangeBodyColor:FireServer("v569.HeadColor")
+        task.wait(0.3)
+        local v571 = v561:FindFirstChild("PlayersBag")
+        local v572 = v571:FindFirstChild("RPName")
+        local v573 = v554.RPNameText:FireServer("RolePlayName", v571.RPName.Value)
+        task.wait(0.3)
+        local v574 = v571:FindFirstChild("RPBio")
+        local v575 = v554.RPNameText:FireServer("RolePlayBio", v571.RPBio.Value)
+        task.wait(0.3)
+        local v576 = v571:FindFirstChild("RPNameColor")
+        local v577 = v554.RPNameColor:FireServer("PickingRPNameColor", v571.RPNameColor.Value)
+        task.wait(0.3)
+        local v578 = v571:FindFirstChild("RPBioColor")
+        local v579 = v554.RPNameColor:FireServer("PickingRPBioColor", v571.RPBioColor.Value)
+        task.wait(0.3)
+        local v580 = v549:AddButton({
+            Callback = function() end,
+            Name = "Copy Avatar"
+        })
+        local v581 = game:GetService("HttpService")
+        local v582 = game:GetService("Players")
+        local v583 = game:GetService("ReplicatedStorage")
+        local v584 = v583:WaitForChild("Remotes")
+        local v585 = v582.LocalPlayer
+        local v586 = v549:AddSection({
+            Name = "Avatar Scripts"
+        })
+        print("[LOG]: Selecionado visualmente: table: 0x55fff55125b0")
+        local v587 = v549:AddDropdown({
+            Options = {"Nenhum salvo"},
+            Name = "Select Saved Avatar",
+            Callback = function() end,
+            Default = "Nenhum"
+        })
+        task.spawn(function()
+            task.wait(2)
+            local v588 = v587:Refresh({"Nenhum salvo"}, true)
+            task.wait(2)
+            local v589 = v587:Refresh({"Nenhum salvo"}, true)
+            task.wait(2)
+            local v590 = v587:Refresh({"Nenhum salvo"}, true)
+            task.wait(2)
+            local v591 = v587:Refresh({"Nenhum salvo"}, true)
+            task.wait(2)
+            local v592 = v587:Refresh({"Nenhum salvo"}, true)
+            task.wait(2)
+            local v593 = v587:Refresh({"Nenhum salvo"}, true)
+            task.wait(2)
+            -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+            -- [Dumper] Terminating due to excessive spam.
+            -- [Error in spawn] EXCESSIVE_REPETITION
+        end)
+        local v620 = v585:FindFirstChildOfClass("Humanoid")
+        local v621 = v620:GetAppliedDescription()
+        local v622 = v585:FindFirstChild("PlayersBag")
+        local v623 = v621:GetAccessories(true)
+        local v624 = v585:FindFirstChild("Body Colors")
+        local v625 = v622:FindFirstChild("RPName")
+        local v626 = v622:FindFirstChild("RPBio")
+        writefile("avatarscriptfile_Avatar_6638.json", v581:JSONEncode({
+            Description = {
+                RightArm = RightArm,
+                Shirt = v621.Shirt,
+                LeftLeg = LeftLeg,
+                Pants = v621.Pants,
+                LeftArm = LeftArm,
+                IdleAnimation = v621.IdleAnimation,
+                Torso = Torso,
+                Accessories = v623,
+                RightLeg = RightLeg,
+                Face = v621.Face,
+                Head = Head
+            },
+            Colors = {
+                SkinColor = "object.Body Colors.HeadColor"
+            },
+            RP = {
+                Bio = v622.RPBio.Value,
+                Name = v622.RPName.Value
+            }
+        }))
+        print("[LOG]: Erro ao salvar: /home/container/Bot_Linux/code/WAD/FreeVer.lua:2627: attempt to index a nil value (global 'mock_filesystem')")
+        local v627 = v549:AddButton({
+            Callback = function() end,
+            Name = "Save New Avatar"
+        })
+        -- [Error in callback_addbutton] attempt to concatenate a table value (local 'X')
+        local v628 = v549:AddButton({
+            Callback = function() end,
+            Name = "Load Selected Avatar"
+        })
+        local v629 = v549:AddSection({" "})
+        local v630 = v549:AddSection({"Playable character"})
+        local v631 = game:GetService("ReplicatedStorage")
+        local v632 = v631:WaitForChild("Remotes")
+        local v633 = v632:WaitForChild("ChangeBodyColor")
+        v633:FireServer("Bright red")
+        wait(0.5)
+        local v634 = game:GetService("ReplicatedStorage")
+        local v635 = v634:WaitForChild("Remotes")
+        local v636 = v635:WaitForChild("ChangeBodyColor")
+        v636:FireServer("Lime green")
+        wait(0.5)
+        local v637 = game:GetService("ReplicatedStorage")
+        local v638 = v637:WaitForChild("Remotes")
+        local v639 = v638:WaitForChild("ChangeBodyColor")
+        v639:FireServer("Bright blue")
+        wait(0.5)
+        local v640 = game:GetService("ReplicatedStorage")
+        local v641 = v640:WaitForChild("Remotes")
+        local v642 = v641:WaitForChild("ChangeBodyColor")
+        v642:FireServer("Bright yellow")
+        wait(0.5)
+        local v643 = game:GetService("ReplicatedStorage")
+        local v644 = v643:WaitForChild("Remotes")
+        local v645 = v644:WaitForChild("ChangeBodyColor")
+        v645:FireServer("Bright cyan")
+        wait(0.5)
+        local v646 = game:GetService("ReplicatedStorage")
+        local v647 = v646:WaitForChild("Remotes")
+        local v648 = v647:WaitForChild("ChangeBodyColor")
+        v648:FireServer("Hot pink")
+        wait(0.5)
+        local v649 = game:GetService("ReplicatedStorage")
+        local v650 = v649:WaitForChild("Remotes")
+        local v651 = v650:WaitForChild("ChangeBodyColor")
+        v651:FireServer("Royal purple")
+        wait(0.5)
+        local v652 = game:GetService("ReplicatedStorage")
+        local v653 = v652:WaitForChild("Remotes")
+        local v654 = v653:WaitForChild("ChangeBodyColor")
+        v654:FireServer("Bright red")
+        wait(0.5)
+        local v655 = game:GetService("ReplicatedStorage")
+        local v656 = v655:WaitForChild("Remotes")
+        local v657 = v656:WaitForChild("ChangeBodyColor")
+        v657:FireServer("Lime green")
+        wait(0.5)
+        local v658 = game:GetService("ReplicatedStorage")
+        local v659 = v658:WaitForChild("Remotes")
+        local v660 = v659:WaitForChild("ChangeBodyColor")
+        v660:FireServer("Bright blue")
+        wait(0.5)
+        local v661 = game:GetService("ReplicatedStorage")
+        local v662 = v661:WaitForChild("Remotes")
+        local v663 = v662:WaitForChild("ChangeBodyColor")
+        v663:FireServer("Bright yellow")
+        wait(0.5)
+        local v664 = game:GetService("ReplicatedStorage")
+        -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+        -- [Dumper] Terminating due to excessive spam.
+        -- [Error in callback_addtoggle] EXCESSIVE_REPETITION
+        local v696 = v549:AddToggle({
+            Description = "Make your Playable character RGB",
+            Name = "RGB Playable character",
+            Callback = function() end,
+            Default = false
+        })
+        local v697 = v549:AddSection({"Hair"})
+        local v698 = game:GetService("ReplicatedStorage")
+        local v699 = v698:WaitForChild("RE")
+        local v700 = v699:WaitForChild("1Max1y")
+        v700:FireServer("ChangeHairColor2", Color3.new(1, 1, 0))
+        wait(0.1)
+        local v701 = game:GetService("ReplicatedStorage")
+        local v702 = v701:WaitForChild("RE")
+        local v703 = v702:WaitForChild("1Max1y")
+        v703:FireServer("ChangeHairColor2", Color3.new(0, 0, 1))
+        wait(0.1)
+        local v704 = game:GetService("ReplicatedStorage")
+        local v705 = v704:WaitForChild("RE")
+        local v706 = v705:WaitForChild("1Max1y")
+        v706:FireServer("ChangeHairColor2", Color3.new(1, 0, 1))
+        wait(0.1)
+        local v707 = game:GetService("ReplicatedStorage")
+        local v708 = v707:WaitForChild("RE")
+        local v709 = v708:WaitForChild("1Max1y")
+        v709:FireServer("ChangeHairColor2", Color3.new(1, 1, 1))
+        -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+        v715:FireServer("ChangeHairColor2", Color3.new(0.5, 0, 1))
+        wait(0.1)
+        local v716 = game:GetService("ReplicatedStorage")
+        local v717 = v716:WaitForChild("RE")
+        local v718 = v717:WaitForChild("1Max1y")
+        v718:FireServer("ChangeHairColor2", Color3.new(1, 0.647, 0))
+        wait(0.1)
+        local v719 = game:GetService("ReplicatedStorage")
+        local v720 = v719:WaitForChild("RE")
+        local v721 = v720:WaitForChild("1Max1y")
+        v721:FireServer("ChangeHairColor2", Color3.new(0, 1, 1))
+        wait(0.1)
+        local v722 = game:GetService("ReplicatedStorage")
+        local v723 = v722:WaitForChild("RE")
+        local v724 = v723:WaitForChild("1Max1y")
+        v724:FireServer("ChangeHairColor2", Color3.new(1, 1, 0))
+        wait(0.1)
+        local v725 = game:GetService("ReplicatedStorage")
+        local v726 = v725:WaitForChild("RE")
+        local v727 = v726:WaitForChild("1Max1y")
+        v727:FireServer("ChangeHairColor2", Color3.new(0, 0, 1))
+        wait(0.1)
+        local v728 = game:GetService("ReplicatedStorage")
+        local v729 = v728:WaitForChild("RE")
+        local v730 = v729:WaitForChild("1Max1y")
+        -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+        -- [Dumper] Terminating due to excessive spam.
+        -- [Error in callback_addtoggle] EXCESSIVE_REPETITION
+        local v761 = v549:AddToggle({
+            Description = "Make Your Hair RGB",
+            Name = "Hair RGB",
+            Callback = function() end,
+            Default = false
+        })
+        local v762 = game:GetService("Players")
+        local v763 = v762.LocalPlayer
+        local v764 = game:GetService("ReplicatedStorage")
+        local v765 = game:GetService("VirtualInputManager")
+        local v766 = game:GetService("RunService")
+        local v767 = game:GetService("Workspace")
+        
+        local v768 = Instance.new("RemoteEvent")
+        v768.Name = "SetNetworkOwnerEvent_6116"
+        v768.Parent = v764
+        loadstring("local ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\
+local event = ReplicatedStorage:WaitForChild(\"SetNetworkOwnerEvent_6116\")\
+\
+event.OnServerEvent:Connect(function(player, part, networkOwner)\
+    if part and part:IsA(\"BasePart\") then\
+        pcall(function()\
+            part:SetNetworkOwner(networkOwner)\
+            part.Anchored = false\
+            part.CanCollide = true\
+            part.CanTouch = true\
+        end)\
+    end\
+end)\
+", "=(obfuscated)")
+        loadstring("local ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\
+local event = ReplicatedStorage:WaitForChild(\"SetNetworkOwnerEvent_6116\")\
+\
+event.OnServerEvent:Connect(function(player, part, networkOwner)\
+    if part and part:IsA(\"BasePart\") then\
+        pcall(function()\
+            part:SetNetworkOwner(networkOwner)\
+            part.Anchored = false\
+            part.CanCollide = true\
+            part.CanTouch = true\
+        end)\
+    end\
+end)\
+")
+        local v769 = game:GetService("ReplicatedStorage")
+        local v770 = v769:WaitForChild("SetNetworkOwnerEvent_6116")
+        local v771 = v770.OnServerEvent:Connect(function(...)
+        end)
+        
+        local v772 = v763.CharacterAdded:Connect(function(character)
+        end)
+        
+        local v773 = v37:AddSection({"Select Any Player"})
+        local players = v762:GetPlayers()
+        Target = nil
+        local v774 = v762:FindFirstChild("table: 0x55fff5961e10")
+        local v775 = v37:AddDropdown({
+            Multi = false,
+            Flag = "player list",
+            Callback = function() end,
+            Name = "Select Any Player",
+            Options = {"Player1"},
+            Default = ""
+        })
+        local v776 = v37:AddButton({"Update Player List", function() end})
+        local players = v762:GetPlayers()
+        local v777 = v775:Set({"Player1"})
+        local v778 = v762:FindFirstChild("table: 0x55fff5961e10")
+        local v779 = v763:FindFirstChild("HumanoidRootPart")
+        local v780 = v778:FindFirstChild("HumanoidRootPart")
+        local v781 = v763:FindFirstChild("HumanoidRootPart")
+        local v782 = v763:FindFirstChild("Humanoid")
+        local descendants = v763:GetDescendants()
+        descendant.Velocity = function() end
+        descendant.RotVelocity = function() end
+        descendant.Anchored = true
+        v781.CFrame = CFrame.new((Vector3.new(0, 5, 0) + Vector3.new(0, 2, 0)))
+        v782.Sit = false
+        v782:ChangeState(Enum.HumanoidStateType.GettingUp)
+        task.wait(0.5)
+        local descendants = v763:GetDescendants()
+        descendant.Anchored = false
+        descendant.Velocity = function() end
+        descendant.RotVelocity = function() end
+        warn("Erro ao teletransportar: [string \"Obfuscated_Script\"]:1: attempt to concatenate a table value (local 'd')")
+        local v783 = v37:AddButton({
+            Callback = function() end,
+            Title = "Teleport to Player"
+        })
+        local v784 = v762:FindFirstChild("table: 0x55fff5961e10")
+        local v785 = v784:FindFirstChild("Humanoid")
+        Camera.CameraSubject = Humanoid
+        local v786 = v766.Heartbeat:Connect(function(deltaTime)
+            local v787 = v784:FindFirstChild("Humanoid")
+            Camera.CameraSubject = Humanoid
+        end)
+        
+        local v788 = v784.CharacterAdded:Connect(function(character)
+            local v789 = v784:FindFirstChild("Humanoid")
+            Camera.CameraSubject = Humanoid
+        end)
+        
+        local v790 = v37:AddToggle({
+            Name = "View Player",
+            Callback = function() end,
+            Default = false
+        })
+        local v791 = v762.PlayerRemoving:Connect(function(player)
+            local players = v762:GetPlayers()
+        end)
+        
+        local v792 = v762.PlayerAdded:Connect(function(player)
+            task.wait(1)
+            local players = v762:GetPlayers()
+        end)
+        
+        local players = v762:GetPlayers()
+        local v793 = v37:AddSection({"Kill"})
+        local v794 = v37:AddDropdown({
+            Name = "Select Any Method (Kill/Bring)",
+            Callback = function() end,
+            Options = {"Couch", "Bus"}
+        })
+        local v795 = game:GetService("Players")
+        local v796 = game:GetService("ReplicatedStorage")
+        local v797 = game:GetService("RunService")
+        local v798 = game:GetService("Workspace")
+        local v799 = v795.LocalPlayer
+        local v800 = v797.Heartbeat:Connect(function(deltaTime)
+        end)
+        
+        local v801 = v797.Heartbeat:Connect(function(deltaTime)
+        end)
+        
+        local v802 = v37:AddButton({
+            Description = "Kill Player",
+            Name = "Kill Player",
+            Callback = function() end
+        })
+        local v803 = v37:AddButton({
+            Description = "Bring Player (Couch-only!)",
+            Name = "Bring Player",
+            Callback = function() end
+        })
+        local v804 = game:GetService("Players")
+        local v805 = game:GetService("ReplicatedStorage")
+        local v806 = game:GetService("RunService")
+        local v807 = game:GetService("Workspace")
+        local v808 = v804.LocalPlayer
+        local v809 = v37:AddSection({" "})
+        local v810 = v808:FindFirstChildOfClass("Humanoid")
+        local v811 = v808:FindFirstChild("HumanoidRootPart")
+        local v812 = v807:FindFirstChild("001_Lots")
+        local v813 = v812:FindFirstChild("LocalPlayerHouse")
+        local v814 = v813:FindFirstChild("HousePickedByPlayer")
+        v811.Anchored = true
+        v811.CFrame = CFrame.new(1181.83, 76.08, -1158.83)
+        task.wait(0.2)
+        v811.Anchored = false
+        v810:ChangeState(Enum.HumanoidStateType.GettingUp)
+        task.wait(0.5)
+        local v815 = v763:FindFirstChild("Backpack")
+        local v816 = v815:FindFirstChild("CarClient")
+        v816.Disabled = true
+        local v817 = v805:WaitForChild("RE")
+        local v818 = v817:WaitForChild("1Ca1r")
+        v818:FireServer("DeleteAllVehicles")
+        local v819 = v805:WaitForChild("RE")
+        local v820 = v819:WaitForChild("1Ca1r")
+        v820:FireServer("PickingCar", "SchoolBus")
+        task.wait(1)
+        local v821 = v807:FindFirstChild("Vehicles")
+        local v822 = v821:FindFirstChild("LocalPlayerCar")
+        v811.Anchored = true
+        v811.CFrame = CFrame.new(1171.15, 79.45, -1166.2)
+        task.wait(0.2)
+        v811.Anchored = false
+        v810:ChangeState(Enum.HumanoidStateType.Seated)
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        task.wait()
+        -- [Infinite loop/spam detected... suppression active. Continuing main execution...]
+        -- [Dumper] Terminating due to excessive spam.
+        -- [Error in callback_addbutton] EXCESSIVE_REPETITION
+        local v823 = v37:AddButton({
+            Description = "This will kill the player with house ban method",
+            Name = "Kill Player with house ban",
+            Callback = function() end
+        })
+        local v824 = v37:AddSection({" "})
+        local descendants = v808:GetDescendants()
+        descendant.CanCollide = true
+        descendant.Velocity = function() end
+        descendant.RotVelocity = function() end
+        local v825 = v808:FindFirstChild("Humanoid")
+        local v826 = v825:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+        local descendants = v807:GetDescendants()
+        descendant.Disabled = false
+        local v827 = v763:FindFirstChild("Backpack")
+        local v828 = v827:FindFirstChild("CarClient")
+        v828.Disabled = true
+        local v829 = v805:WaitForChild("RE")
+        local v830 = v829:WaitForChild("1Ca1r")
+        v830:FireServer("DeleteAllVehicles")
+        local v831 = v37:AddButton({
+            Description = "This will stop everything",
+            Name = "Stop",
+            Callback = function() end
+        })
+        local v832 = v37:AddSection({"Fling Player"})
+        local v833 = v37:AddDropdown({
+            Name = "Select Fling Method",
+            Callback = function() end,
+            Options = {"Couch", "Bus", "Ship", "Truck"}
+        })
+        local v834 = v37:AddToggle({
+            Name = "Fling Player",
+            Callback = function() end,
+            Default = false
+        })
+        local v835 = v37:AddSection({"Soccer Ball"})
+        game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/Spin-orbit%20Soccerball")
+        loadstring("-- Mock response for https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/Spin-orbit%20Soccerball", "=(obfuscated)")
+        local ldstrng = loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/Spin-orbit%20Soccerball"))()
+        local v836 = v37:AddButton({
+            Callback = function() end,
+            Name = "Soccer Ball Auto Fling (Orbit)"
+        })
+        local v837 = v37:AddSection({"Prop Method"})
+        game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/Props.Spawner.Brookhaven")
+        loadstring("-- Mock response for https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/Props.Spawner.Brookhaven", "=(obfuscated)")
+        local ldstrng = loadstring(game:HttpGet("https://raw.githubusercontent.com/dreamy9x9x/MuitosBrainrotadosAhhArabicoBlud/refs/heads/main/Props.Spawner.Brookhaven"))()
+        local v838 = v37:AddButton({
+            Callback = function() end,
+            Name = "Spawn Ladder Prop <Required>"
+        })
+        local v839 = v37:AddSection({" "})
+        local v840 = v806.Heartbeat:Connect(function(deltaTime)
+            local v841 = v804:FindFirstChild("table: 0x55fff5961e10")
+            local v842 = v841:FindFirstChild("HumanoidRootPart")
+            local v843 = v841:FindFirstChild("Humanoid")
+            -- [Error in Connect_Callback] C stack overflow
+        end)
+        
+        local v844 = v37:AddToggle({
+            Name = "Prop Kill",
+            Callback = function() end,
+            Default = false
+        })
+        local v845 = v806.Heartbeat:Connect(function(deltaTime)
+            local v846 = v804:FindFirstChild("table: 0x55fff5961e10")
+            local v847 = v846:FindFirstChild("HumanoidRootPart")
+            local v848 = v846:FindFirstChild("Humanoid")
+            -- [Error in Connect_Callback] C stack overflow
+        end)
+        
+        local v849 = v37:AddToggle({
+            Name = "Prop Fling",
+            Callback = function() end,
+            Default = false
+        })
+        local v850 = v806.Heartbeat:Connect(function(deltaTime)
+            local v851 = v804:FindFirstChild("table: 0x55fff5961e10")
+            local v852 = v851:FindFirstChild("HumanoidRootPart")
+            local v853 = v851:FindFirstChild("Humanoid")
+            local v854 = v808:FindFirstChild("HumanoidRootPart")
+            -- [Error in Connect_Callback] C stack overflow
+        end)
+        
+        local v855 = v37:AddToggle({
+            Name = "Prop Bring",
+            Callback = function() end,
+            Default = false
+        })
+        local v856 = v37:AddSection({" "})
+        local v857 = v806.Heartbeat:Connect(function(deltaTime)
+            local v858 = game.Workspace:FindFirstChild("WorkspaceCom")
+            local children = v858:GetChildren()
+            local children = v858:GetChildren()
+            local v859 = object.NoResetGUIHandler.PropColorPicker.SetColor:FireServer(Color3.fromHSV(0.025, 1, 1))
+        end)
+        
+        local v860 = v37:AddToggle({
+            Name = "Prop RGB",
+            Callback = function() end,
+            Default = false
+        })
+        local v861 = v806.Heartbeat:Connect(function(deltaTime)
+            local v862 = v808:FindFirstChild("HumanoidRootPart")
+            local v863 = game.Workspace:FindFirstChild("WorkspaceCom")
+            local children = v863:GetChildren()
+            local children = v863:GetChildren()
+        end)
+        
+        local v864 = v37:AddToggle({
+            Name = "Orbit Prop",
+            Callback = function() end,
+            Default = false
+        })
+        local v865 = v37:AddSection({" "})
+        local v866 = v805.RE:FindFirstChild("1Clea1rTool1s")
+        v866:FireServer("ClearAllProps")
+        print("Props limpos com sucesso!")
+        local v867 = v37:AddButton({
+            Callback = function() end,
+            Name = "Clear All My Props"
+        })
+        v845:Disconnect()
+        v850:Disconnect()
+        v840:Disconnect()
+        v857:Disconnect()
+        v861:Disconnect()
+        print("Todas as conexões de Prop foram paradas.")
+        local v868 = v37:AddButton({
+            Description = "Stops everything you're doing related to Props",
+            Name = "Stop All Prop Connections",
+            Callback = function() end
+        })
+        local v869 = v37:AddSection({"Click Scripts with tools"})
+        local v870 = game:GetService("Players")
+        local v871 = v870.LocalPlayer
+        local v872 = game:GetService("ReplicatedStorage")
+        local v873 = game:GetService("RunService")
+        local v874 = game:GetService("Workspace")
+        local v875 = game:GetService("UserInputService")
+        local v876 = v871:WaitForChild("Backpack")
+        local v877 = v876:FindFirstChild("Click Kill Couch")
+        local v878 = v875.InputBegan:Connect(function(input, gameProcessed)
+        end)
+        
+        local v879 = v37:AddButton({
+            Callback = function() end,
+            Name = "Click Kill Couch (Tool)"
+        })
+        local v880 = game:GetService("Players")
+        local v881 = v880.LocalPlayer
+        local v882 = game:GetService("ReplicatedStorage")
+        local v883 = game:GetService("RunService")
+        local v884 = game:GetService("UserInputService")
+        local v885 = game:GetService("VirtualInputManager")
+        local v886 = game:GetService("Workspace")
+        local v887 = v881:WaitForChild("Backpack")
+        local v888 = v887:FindFirstChild("Click Fling Couch")
+        local v889 = v884.InputBegan:Connect(function(input, gameProcessed)
+        end)
+        
+        local v890 = v37:AddButton({
+            Callback = function() end,
+            Name = "Click Fling Couch (Tool)"
+        })
+        local v891 = v37:AddSection({"coming soon: all functions, stuck player (possible)"})
